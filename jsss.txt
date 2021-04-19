@@ -1,0 +1,12 @@
+app.app = r.data;
+_that.ishsbcstaff = r.data.dto[0].ishsbcclerk ;
+
+
+if (!_that.checkapp()) {
+	return;
+}
+if('GPI' != _that.app.plancode ){
+for(var x in _that.app.dto){
+	_that.app.dto[x].ishsbcclerk = _that.ishsbcstaff;
+}
+}

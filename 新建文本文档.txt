@@ -1,0 +1,3 @@
+alter table lccont add applNeedFinance varchar2(2);
+alter table lccont add insuNeedFinance varchar2(2);
+alter table lccont add insuNeedFinance2 varchar2(2);
